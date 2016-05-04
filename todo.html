@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles/main.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <form class="form" data-js="form">
+      <section class="todoapp">
+          <header class="header">
+              <h1>todos</h1>
+              <input class="new-todo" placeholder="What needs to be done?" autofocus data-js="type__here">
+          </header>
+          <section class="main">
+              <input class="toggle-all" type="checkbox" data-js="input-here">
+              <label for="toggle-all">Mark all as complete</label>
+              <ul class="todo-list" data-js="todo-list"></ul>
+          </section>
+          <footer class="footer">
+              <button class="clear-completed">Clear completed</button>
+          </footer>
+      </section>
+      <footer class="info">
+        <p>Double-click to edit a todo</p>
+      <div>
+        <button class="bottom__button" type="button" data-js="show__all">All</button>
+        <button class="bottom__button" type="button" data-js="show__active">Active</button>
+        <button class="bottom__button" type="button" data-js="show__active">Completed</button>
+        <button class="bottom__button" type="button" data-js="clear__me">Clear completed</button>
+      </div>
+      </form>
+  </body>
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="JS/main.js"> </script>
+  <footer>Double-click to edit a todo</footer>
+</html>

@@ -1,0 +1,1 @@
+console.error("\n/Users/ernestodelossantos/git/3.4-to-do-list/js/main.js:30\n})\n^\nParseError: Unexpected token");
